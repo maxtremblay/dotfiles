@@ -1,0 +1,44 @@
+* {
+    font-family: FiraCode NerdFont;
+    font-size: 13px;
+}
+
+window#waybar {
+    background-color: #282828;
+    color: #fbf1c7;
+}
+
+#workspaces {
+    margin-left: 15px;
+}
+
+#workspaces button {
+    padding: 0;
+    margin: 0 -10px;
+}
+
+#workspaces button.focused {
+    color: #d65d0e;
+    font-weight: 900;
+}
+
+
+#battery.charging, #battery.plugged {
+    color: #98971a;
+}
+
+
+#battery.critical:not(.charging) {
+    color: #cc241d;
+}
+
+#pulseaudio,
+#backlight,
+#battery,
+#network {
+    margin-left: 20px;
+}
+
+#network {
+    margin-right: 20px;
+}

@@ -1,0 +1,4 @@
+theme = "gruvbox"
+
+[keys.normal]
+"space" = { m = ":format" }
