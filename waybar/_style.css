@@ -1,9 +1,6 @@
 * {
-    border: none;
-    border-radius: 0;
-    font-family: sans-serif;
+    /* font-family: FiraCode NerdFont; */
     font-size: 13px;
-    min-height: 0;
 }
 
 window#waybar {
@@ -15,16 +12,16 @@ window#waybar {
     margin-left: 15px;
 }
 
-
 #workspaces button {
-    padding: 3px;
-    color: #fbf1c7;
+    padding: 0;
+    margin: 0 -10px;
 }
 
 #workspaces button.focused {
     color: #d65d0e;
     font-weight: 900;
 }
+
 
 #battery.charging, #battery.plugged {
     color: #98971a;
@@ -43,5 +40,5 @@ window#waybar {
 }
 
 #network {
-    margin-right: 18px;
+    margin-right: 20px;
 }

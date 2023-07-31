@@ -13,7 +13,6 @@ end
 -- This is where you actually apply your config choices
 config.color_scheme = 'GruvboxDark'
 
-config.font = wezterm.font 'FiraCode NerdFont'
 config.font_size = 15.0
 
 local padding = 10
@@ -27,6 +26,8 @@ config.window_padding = {
 config.hide_tab_bar_if_only_one_tab = true
 
 config.scrollback_lines = 5000
+
+config.window_close_confirmation = 'NeverPrompt'
 
 -- and finally, return the configuration to wezterm
 return config
